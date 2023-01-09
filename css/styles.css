@@ -1,15 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
-:root {
-  --brand-color: #2196f3;
-  --tex-color: #212121;
-  --background-color: #2f303a;
-}
 
 body {
   font-family: "roboto";
   font-style: normal;
   font-weight: 400;
-  color: var(--tex-color);
+  color: #212121;
   margin: 0;
   line-height: 1em;
   background-color: #ffffff;
@@ -17,46 +12,78 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 li {
   list-style: none;
+}
+.button:focus {
+  color: #2196f3;
+}
+.link:focus {
+  color: #2196f3;
 }
 .logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.1;
-  color: var(--brand-color);
+  color: #2196f3;
 }
 
-header .menu a,
-.contacts a {
+.link {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  color: var(--tex-color);
+  line-height: 1.2;
+  color: #212121;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
 }
-
-header .menu a:hover {
-  color: var(--brand-color);
+.current {
+  color: #2196f3;
+}
+.link-contacts {
+  font-weight: 500;
+  font-size: 14;
+  line-height: 1.1;
+  color: #757575;
+  font-family: "Roboto";
+  font-style: normal;
+}
+.button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #ffffff;
+  background-color: blue;
 }
 
 button:hover {
   background-color: #2196f3;
   cursor: pointer;
 }
-header .contacts a:hover {
-  color: var(--brand-color);
+.link-contacts:hover,
+.link-contacts:focus {
+  color: #2196f3;
+}
+.link:hover {
+  color: #2196f3;
 }
 main .title {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 900;
   color: #ffffff;
   line-height: 1.3;
 }
 .hero {
-  background-color: var(--background-color);
+  background-color: #2f303a;
 }
 main .title-content {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -66,27 +93,38 @@ main .title-content {
   font-size: 14px;
   color: #757575;
   line-height: 1.7;
+  font-family: "Roboto";
+  font-style: normal;
 }
 .section-we-dedicate {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
+  font-family: "Roboto";
+  font-style: normal;
 }
 .team {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
+  font-family: "Roboto";
+  font-style: normal;
 }
 .name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1;
-  color: var(--tex-color);
+  color: #212121;
+  font-family: "Roboto";
+  font-style: normal;
 }
 .ocupation {
   font-size: 16px;
   color: #757575;
   line-height: 1.1;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
 }
 .fondo {
   background-color: #f5f4fa;
@@ -98,42 +136,64 @@ main .title-content {
   font-size: 16px;
   color: #212121;
   line-height: 1.6;
+  border: none;
+  border-radius: 4px;
+}
+.active {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.6;
+  border: none;
+  border-radius: 4px;
+  background-color: #2196f3;
 }
 .portafolio {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  font-family: "Roboto";
+  font-style: normal;
+}
+.portafolio > li {
+  cursor: pointer;
 }
 .description {
   font-size: 16px;
   color: #757575;
   line-height: 1.8;
+  font-family: "Roboto";
+  font-style: normal;
 }
 .access-button:hover {
   background-color: #2196f3;
   color: #ffffff;
   cursor: pointer;
 }
-.nav-item {
-  font-weight: 500;
-  font-size: 14px;
-}
-.current {
-  color: var(--brand-color);
-}
 footer {
   background-color: #2f303a;
 }
 
-footer.contacts {
-  font-size: 14px;
+.information {
+  font-size: 14;
   color: #ffffff;
   line-height: 1.7;
+  font-family: Roboto;
+  font-style: normal;
 }
 footer .logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.1;
-  color: var(--brand-color);
+  color: #2196f3;
+}
+.information:hover,
+.information:focus {
+  color: #2196f3;
+  cursor: pointer;
+}
+address {
+  font-style: normal;
 }
