@@ -14,6 +14,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
 li {
   list-style: none;
 }
@@ -80,15 +81,44 @@ main .title {
   color: #ffffff;
   line-height: 1.3;
 }
+main .title:hover,
+main .title:focus {
+  color: #2196f3;
+}
+.image-index :hover {
+  background: #2196f3;
+}
+.image-dos :hover {
+  background: #2196f3;
+}
+.image-tres :hover {
+  background: #2196f3;
+}
+.image-cuatro :hover {
+  background: #2196f3;
+}
+.image-cinco :hover {
+  background: #2196f3;
+}
+.image-seis :hover {
+  background: #2196f3;
+}
+.image-siete :hover {
+  background: #2196f3;
+}
 .hero {
   background-color: #2f303a;
 }
-main .title-content {
+main .title-text {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
+}
+.title-text :focus,
+.title-text :hover {
+  color: #2196f3;
 }
 .text {
   font-weight: 400;
@@ -105,12 +135,23 @@ main .title-content {
   font-family: 'Roboto';
   font-style: normal;
 }
+.section-we-dedicate:focus,
+.section-we-dedicate:hover {
+  color: #2196f3;
+}
+.image-index :hover {
+  color: #2196f3;
+}
 .team {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   font-family: 'Roboto';
   font-style: normal;
+}
+.team:focus,
+.team:hover {
+  color: #2196f3;
 }
 .name {
   font-weight: 500;
@@ -120,6 +161,10 @@ main .title-content {
   font-family: 'Roboto';
   font-style: normal;
 }
+.name:hover,
+.name:focus {
+  color: #2196f3;
+}
 .ocupation {
   font-size: 16px;
   color: #757575;
@@ -127,6 +172,10 @@ main .title-content {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
+}
+.ocupation:hover,
+.ocupation:focus {
+  color: #2196f3;
 }
 .fondo {
   background-color: #f5f4fa;
@@ -158,15 +207,21 @@ main .title-content {
   font-family: 'Roboto';
   font-style: normal;
 }
-.portafolio > li {
-  cursor: pointer;
+.portafolio:hover,
+.portafolio:focus {
+  color: #2196f3;
 }
+
 .description {
   font-size: 16px;
   color: #757575;
   line-height: 1.8;
   font-family: 'Roboto';
   font-style: normal;
+}
+.description:hover,
+.description:focus {
+  color: #2196f3;
 }
 .access-button:hover {
   background-color: #2196f3;
