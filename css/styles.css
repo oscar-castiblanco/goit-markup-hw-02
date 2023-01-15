@@ -85,27 +85,6 @@ main .title:hover,
 main .title:focus {
   color: #2196f3;
 }
-.image-index :hover {
-  background: #2196f3;
-}
-.image-dos :hover {
-  background: #2196f3;
-}
-.image-tres :hover {
-  background: #2196f3;
-}
-.image-cuatro :hover {
-  background: #2196f3;
-}
-.image-cinco :hover {
-  background: #2196f3;
-}
-.image-seis :hover {
-  background: #2196f3;
-}
-.image-siete :hover {
-  background: #2196f3;
-}
 .hero {
   background-color: #2f303a;
 }
@@ -128,6 +107,12 @@ main .title-text {
   font-family: 'Roboto';
   font-style: normal;
 }
+.img-index:hover,
+.img-index:focus,
+.img-index:active {
+  color: #2196f3;
+  border: 4px solid;
+}
 .section-we-dedicate {
   font-weight: 700;
   font-size: 36px;
@@ -137,9 +122,6 @@ main .title-text {
 }
 .section-we-dedicate:focus,
 .section-we-dedicate:hover {
-  color: #2196f3;
-}
-.image-index :hover {
   color: #2196f3;
 }
 .team {
@@ -207,10 +189,6 @@ main .title-text {
   font-family: 'Roboto';
   font-style: normal;
 }
-.portafolio:hover,
-.portafolio:focus {
-  color: #2196f3;
-}
 
 .description {
   font-size: 16px;
@@ -222,6 +200,16 @@ main .title-text {
 .description:hover,
 .description:focus {
   color: #2196f3;
+}
+.title-p:hover,
+.title-p:focus {
+  color: #2196f3;
+}
+.img-port:focus,
+.img-port:hover,
+.img-port :active {
+  color: #2196f3;
+  border: 4px solid;
 }
 .access-button:hover {
   background-color: #2196f3;
